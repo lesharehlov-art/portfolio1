@@ -1,0 +1,2177 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)https://www.genspark.ai/api/files/s/dWT8rCs8 -->
+<html lang="ru" data-theme="light"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Группа строительных компаний · Строим для Петербурга и области</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="./Группа строительных компаний · Строим для Петербурга и области_files/css2" rel="stylesheet">
+    <style>
+      :root {
+        --ink: #1a2332;
+        --ink-2: #2c3a4f;
+        --cream: #f6f1e8;
+        --paper: #ffffff;
+        --accent: #c8553d;
+        --accent-soft: #e8a08a;
+        --steel: #6b7a8f;
+        --rule: rgba(26, 35, 50, 0.12);
+        --max: 1240px;
+      }
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        font-family:
+          'Inter',
+          -apple-system,
+          BlinkMacSystemFont,
+          'Segoe UI',
+          Roboto,
+          sans-serif;
+        font-size: 16px;
+        line-height: 1.65;
+        color: var(--ink);
+        background: var(--cream);
+        -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
+      }
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+      img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+        cursor: zoom-in;
+      }
+      .container {
+        max-width: var(--max);
+        margin: 0 auto;
+        padding: 0 48px;
+      }
+      @media (max-width: 768px) {
+        .container {
+          padding: 0 22px;
+        }
+      }
+
+      .serif {
+        font-family: 'Playfair Display', Georgia, serif;
+        font-weight: 600;
+        letter-spacing: -0.01em;
+      }
+      .micro {
+        font-family: 'Inter', sans-serif;
+        font-size: 11px;
+        font-weight: 600;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: var(--steel);
+      }
+      .deco-line {
+        display: block;
+        width: 48px;
+        height: 1px;
+        background: var(--rule);
+        margin-bottom: 18px;
+      }
+      .deco-line.accent {
+        background: var(--accent);
+      }
+
+      h1,
+      h2,
+      h3,
+      h4 {
+        font-family: 'Playfair Display', Georgia, serif;
+        font-weight: 600;
+        letter-spacing: -0.01em;
+        color: var(--ink);
+        line-height: 1.12;
+      }
+
+      /* ===== HERO ===== */
+      .hero {
+        position: relative;
+        background: var(--ink);
+        color: #fff;
+        overflow: hidden;
+        padding: 90px 0 110px;
+      }
+      .hero::before {
+        content: '';
+        position: absolute;
+        top: -20%;
+        right: -8%;
+        width: 55%;
+        height: 140%;
+        background: linear-gradient(
+          115deg,
+          transparent 0%,
+          transparent 38%,
+          var(--accent) 38%,
+          var(--accent) 41%,
+          transparent 41%,
+          transparent 100%
+        );
+        transform: rotate(-12deg);
+        opacity: 0.95;
+        pointer-events: none;
+      }
+      .hero::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 1px;
+        background: rgba(255, 255, 255, 0.08);
+      }
+      .hero .container {
+        display: grid;
+        grid-template-columns: 1.05fr 0.95fr;
+        gap: 60px;
+        align-items: center;
+        position: relative;
+        z-index: 2;
+      }
+      @media (max-width: 980px) {
+        .hero .container {
+          grid-template-columns: 1fr;
+          gap: 50px;
+        }
+      }
+      .hero-text .micro {
+        color: rgba(255, 255, 255, 0.55);
+        margin-bottom: 24px;
+        display: inline-block;
+        padding: 8px 14px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        border-radius: 2px;
+      }
+      .hero-text h1 {
+        font-size: clamp(40px, 5.4vw, 84px);
+        color: #fff;
+        margin-bottom: 24px;
+      }
+      .hero-text h1 em {
+        font-style: italic;
+        font-weight: 400;
+        color: var(--accent-soft);
+      }
+      .hero-text .sub {
+        font-family: 'Playfair Display', Georgia, serif;
+        font-style: italic;
+        font-size: clamp(18px, 1.6vw, 22px);
+        color: rgba(255, 255, 255, 0.75);
+        max-width: 520px;
+        margin-bottom: 42px;
+        line-height: 1.45;
+      }
+      .hero-text .cta-group {
+        display: flex;
+        gap: 14px;
+        flex-wrap: wrap;
+      }
+      .btn {
+        display: inline-block;
+        padding: 14px 26px;
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        color: #fff;
+        background: transparent;
+        transition:
+          background 0.2s ease,
+          color 0.2s ease,
+          border-color 0.2s ease;
+      }
+      .btn:hover {
+        background: var(--accent);
+        border-color: var(--accent);
+        color: #fff;
+      }
+      .btn.solid {
+        background: var(--accent);
+        border-color: var(--accent);
+      }
+      .btn.solid:hover {
+        background: #a94433;
+        border-color: #a94433;
+      }
+
+      .hero-triptych {
+        position: relative;
+        height: 520px;
+      }
+      @media (max-width: 980px) {
+        .hero-triptych {
+          height: 420px;
+        }
+      }
+      .hero-triptych .tile {
+        position: absolute;
+        border-radius: 4px;
+        overflow: hidden;
+        box-shadow: 0 18px 50px rgba(0, 0, 0, 0.45);
+        transition: transform 0.4s ease;
+      }
+      .hero-triptych .tile img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+            .hero-triptych .tile.t1 {
+              top: 0;
+              left: 6%;
+              width: 58%;
+              height: 76%;
+              transform: rotate(-3.2deg);
+              z-index: 4;
+            }
+            .hero-triptych .tile.t2 {
+              top: 14%;
+              right: 0;
+              width: 46%;
+              height: 60%;
+              transform: rotate(4.5deg);
+              z-index: 3;
+            }
+            .hero-triptych .tile.t3 {
+              bottom: 0;
+              left: 4%;
+              width: 38%;
+              height: 44%;
+              transform: rotate(-2.6deg);
+              z-index: 2;
+              border: 1px solid rgba(255, 255, 255, 0.06);
+            }
+            .hero-triptych .tile.t4 {
+              bottom: 6%;
+              right: 6%;
+              width: 42%;
+              height: 46%;
+              transform: rotate(3.4deg);
+              z-index: 1;
+              border: 1px solid rgba(255, 255, 255, 0.06);
+            }
+            @media (max-width: 980px) {
+              .hero-triptych .tile.t1 {
+                left: 0;
+                width: 62%;
+              }
+              .hero-triptych .tile.t2 {
+                right: 0;
+                width: 52%;
+              }
+              .hero-triptych .tile.t3 {
+                left: 0;
+                width: 50%;
+              }
+              .hero-triptych .tile.t4 {
+                right: 0;
+                width: 50%;
+              }
+            }
+
+      /* ===== SECTIONS ===== */
+      section {
+        padding: 90px 0;
+        position: relative;
+      }
+      @media (max-width: 768px) {
+        section {
+          padding: 60px 0;
+        }
+      }
+      .section-head {
+        margin-bottom: 48px;
+      }
+      .section-head .micro {
+        margin-bottom: 14px;
+        display: block;
+      }
+      .section-head h2 {
+        font-size: clamp(34px, 4vw, 56px);
+        max-width: 900px;
+      }
+      .section-head .epigraph {
+        font-family: 'Playfair Display', Georgia, serif;
+        font-style: italic;
+        font-size: clamp(16px, 1.4vw, 20px);
+        color: var(--steel);
+        margin-top: 14px;
+        max-width: 680px;
+        line-height: 1.5;
+      }
+
+      /* ===== ABOUT ===== */
+      .about {
+        background: var(--cream);
+      }
+      .about-block {
+        max-width: 720px;
+      }
+      .about-block p {
+        font-size: 18px;
+        line-height: 1.78;
+        color: var(--ink-2);
+        margin-bottom: 18px;
+      }
+      .about-block p:last-child {
+        margin-bottom: 0;
+      }
+
+      /* ===== LIGHTBOX ===== */
+      [id^='proj-'] {
+        scroll-margin-top: 30px;
+      }
+      [id^='proj-']:target {
+        box-shadow: 0 0 0 4px var(--accent-soft);
+        transition: box-shadow 0.4s ease;
+        border-radius: 6px;
+      }
+      .zoomable {
+        cursor: zoom-in;
+        display: block;
+      }
+      .zoomable img {
+        cursor: zoom-in;
+      }
+      .lightboxes-wrapper {
+        position: fixed;
+      }
+      .lb {
+        position: fixed;
+        inset: 0;
+        z-index: 1000;
+        background: rgba(13, 22, 34, 0.94);
+        display: none;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+        text-decoration: none;
+      }
+      .lb:target {
+        display: flex;
+      }
+      .lb img {
+        max-width: 92vw;
+        max-height: 88vh;
+        object-fit: contain;
+        border-radius: 4px;
+        box-shadow: 0 30px 80px rgba(0, 0, 0, 0.55);
+      }
+      .lb-close {
+        position: absolute;
+        top: 22px;
+        right: 26px;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.12);
+        color: #fff;
+        border: 1px solid rgba(255, 255, 255, 0.28);
+        font-size: 26px;
+        line-height: 1;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        font-family: inherit;
+        font-weight: 300;
+        transition:
+          background 0.2s ease,
+          border-color 0.2s ease;
+      }
+      .lb-close:hover {
+        background: var(--accent);
+        border-color: var(--accent);
+      }
+
+      /* ===== DRAWER ===== */
+      .drawer-backdrop {
+        position: fixed;
+        inset: 0;
+        background: rgba(13, 22, 34, 0.4);
+        z-index: 998;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.28s ease;
+      }
+      #proj-drawer:target ~ #drawer-backdrop {
+        opacity: 1;
+        pointer-events: auto;
+      }
+      .bd-close {
+        position: absolute;
+        inset: 0;
+        display: block;
+      }
+      .proj-drawer {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: min(420px, 92vw);
+        height: 100vh;
+        background: var(--paper);
+        z-index: 999;
+        transform: translateX(100%);
+        transition: transform 0.32s cubic-bezier(0.4, 0, 0.2, 1);
+        box-shadow: -20px 0 60px rgba(0, 0, 0, 0.2);
+        display: flex;
+        flex-direction: column;
+      }
+      .proj-drawer:target {
+        transform: translateX(0);
+      }
+      .drawer-close {
+        position: absolute;
+        top: 16px;
+        right: 16px;
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        background: var(--ink);
+        color: #fff;
+        font-size: 22px;
+        line-height: 1;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        font-family: inherit;
+        font-weight: 300;
+        transition: background 0.2s ease;
+      }
+      .drawer-close:hover {
+        background: var(--accent);
+      }
+      .drawer-head {
+        padding: 50px 32px 22px;
+        border-bottom: 1px solid var(--rule);
+      }
+      .drawer-head .micro {
+        display: block;
+        margin-bottom: 8px;
+      }
+      .drawer-head h3 {
+        font-family: 'Playfair Display', Georgia, serif;
+        font-size: 28px;
+        font-weight: 600;
+        color: var(--ink);
+        line-height: 1.15;
+      }
+      .drawer-body {
+        padding: 8px 32px 40px;
+        overflow-y: auto;
+        flex: 1;
+      }
+      .drawer-group {
+        margin-top: 22px;
+      }
+      .drawer-group .micro {
+        display: block;
+        margin-bottom: 10px;
+        color: var(--accent);
+        font-weight: 700;
+      }
+      .drawer-group a {
+        display: block;
+        padding: 11px 0;
+        font-family: 'Playfair Display', Georgia, serif;
+        font-size: 17px;
+        color: var(--ink);
+        border-bottom: 1px solid var(--rule);
+        transition:
+          color 0.18s ease,
+          padding-left 0.18s ease;
+        text-decoration: none;
+      }
+      .drawer-group a:last-child {
+        border-bottom: none;
+      }
+      .drawer-group a:hover {
+        color: var(--accent);
+        padding-left: 6px;
+      }
+
+      /* ===== PROJECTS — RESIDENTIAL (paper bg) ===== */
+      .residential-section {
+        background: var(--paper);
+      }
+      /* ===== PROJECTS — INDUSTRIAL (cream bg) ===== */
+      .industrial-section {
+        background: var(--cream);
+      }
+      /* ===== PROJECTS — INFRA (paper bg) ===== */
+      .infra-section {
+        background: var(--paper);
+      }
+
+      /* feature card */
+      .feature-card {
+        display: grid;
+        grid-template-columns: 1.55fr 1fr;
+        gap: 50px;
+        align-items: center;
+        background: var(--paper);
+        padding: 36px;
+        border-radius: 6px;
+        box-shadow: 0 8px 30px rgba(26, 35, 50, 0.08);
+        margin-bottom: 60px;
+        transition: box-shadow 0.3s ease;
+      }
+      @media (max-width: 900px) {
+        .feature-card {
+          grid-template-columns: 1fr;
+          gap: 30px;
+          padding: 24px;
+        }
+      }
+      .feat-img {
+        height: 460px;
+        border-radius: 4px;
+        overflow: hidden;
+        position: relative;
+      }
+      .feat-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.5s ease;
+      }
+      .feat-img .badge {
+        position: absolute;
+        left: 18px;
+        top: 18px;
+        background: rgba(26, 35, 50, 0.85);
+        color: #fff;
+        font-size: 10.5px;
+        font-weight: 600;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        padding: 7px 12px;
+        border-radius: 2px;
+        z-index: 2;
+      }
+      .feat-text .micro {
+        margin-bottom: 14px;
+        display: block;
+      }
+      .feat-text h3 {
+        font-size: clamp(24px, 2.6vw, 34px);
+        margin-bottom: 18px;
+      }
+      .feat-text .desc {
+        font-size: 16.5px;
+        line-height: 1.7;
+        color: var(--ink-2);
+        margin-bottom: 22px;
+      }
+      .feat-text ul.work-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        border-top: 1px solid var(--rule);
+      }
+      .feat-text ul.work-list li {
+        padding: 14px 0 14px 26px;
+        border-bottom: 1px solid var(--rule);
+        font-size: 14.5px;
+        color: var(--ink-2);
+        position: relative;
+        line-height: 1.5;
+      }
+      .feat-text ul.work-list li::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 22px;
+        width: 12px;
+        height: 1px;
+        background: var(--accent);
+      }
+
+      /* thumb grids — 3 cols (по умолчанию) и 3 cols для 6 элементов */
+      .thumb-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 18px;
+        margin-top: 30px;
+      }
+      @media (max-width: 768px) {
+        .thumb-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+      .thumb {
+        height: 240px;
+        border-radius: 4px;
+        overflow: hidden;
+        position: relative;
+      }
+      .thumb img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.5s ease;
+      }
+
+      /* medium card */
+      .medium-card {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        align-items: start;
+        margin-bottom: 80px;
+        padding-bottom: 60px;
+        border-bottom: 1px solid var(--rule);
+        transition: box-shadow 0.3s ease;
+      }
+      .medium-card:last-child {
+        margin-bottom: 0;
+        border-bottom: none;
+        padding-bottom: 0;
+      }
+      @media (max-width: 900px) {
+        .medium-card {
+          grid-template-columns: 1fr;
+          gap: 24px;
+        }
+      }
+      .medium-card.reverse .med-img {
+        order: 2;
+      }
+      @media (max-width: 900px) {
+        .medium-card.reverse .med-img {
+          order: 0;
+        }
+      }
+      .med-img {
+        height: 380px;
+        border-radius: 4px;
+        overflow: hidden;
+        position: relative;
+      }
+      .med-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.55s ease;
+      }
+      .med-img .img-caption {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        padding: 12px 16px;
+        background: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+        color: #fff;
+        font-size: 11px;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        font-weight: 600;
+      }
+      .med-text {
+        margin-top: 8px;
+      }
+      .med-text .micro {
+        margin-bottom: 12px;
+        display: block;
+      }
+      .med-text h3 {
+        font-size: clamp(22px, 2.2vw, 28px);
+        margin-bottom: 14px;
+      }
+      .med-text .desc {
+        font-size: 16px;
+        line-height: 1.7;
+        color: var(--ink-2);
+      }
+      .med-sub {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+        margin-top: 22px;
+      }
+      @media (max-width: 900px) {
+        .med-sub {
+          grid-template-columns: 1fr;
+        }
+      }
+      .med-sub .sub-img {
+        height: 160px;
+        border-radius: 4px;
+        overflow: hidden;
+      }
+      .med-sub .sub-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      /* mini strips */
+      .mini-strip {
+        display: grid;
+        grid-template-columns: 200px 1fr 220px;
+        gap: 32px;
+        align-items: center;
+        padding: 24px 28px;
+        background: var(--paper);
+        border-radius: 6px;
+        margin-bottom: 20px;
+        border-left: 4px solid var(--accent);
+        box-shadow: 0 4px 16px rgba(26, 35, 50, 0.06);
+        transition: box-shadow 0.3s ease;
+      }
+      @media (max-width: 880px) {
+        .mini-strip {
+          grid-template-columns: 1fr;
+          gap: 18px;
+          padding: 18px;
+        }
+      }
+      .mini-strip .mini-img {
+        height: 140px;
+        border-radius: 4px;
+        overflow: hidden;
+      }
+      .mini-strip .mini-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .mini-strip .mini-img.r {
+        height: 120px;
+      }
+      .mini-strip .mini-text .micro {
+        margin-bottom: 8px;
+        display: block;
+      }
+      .mini-strip .mini-text h4 {
+        font-family: 'Playfair Display', Georgia, serif;
+        font-weight: 600;
+        font-size: 20px;
+        color: var(--ink);
+        margin-bottom: 8px;
+      }
+      .mini-strip .mini-text p {
+        font-size: 14.5px;
+        color: var(--ink-2);
+        line-height: 1.55;
+      }
+
+      /* residential grid (within residential section) */
+      .residential-intro {
+        display: grid;
+        grid-template-columns: 1fr 1.4fr;
+        gap: 70px;
+        margin: 60px 0;
+        align-items: start;
+      }
+      @media (max-width: 880px) {
+        .residential-intro {
+          grid-template-columns: 1fr;
+          gap: 30px;
+        }
+      }
+      .residential-intro p {
+        font-size: 17px;
+        line-height: 1.78;
+        color: var(--ink-2);
+        max-width: 64ch;
+      }
+      .residential-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 28px;
+      }
+      @media (max-width: 880px) {
+        .residential-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+      .res-card {
+        background: var(--paper);
+        border-radius: 6px;
+        overflow: hidden;
+        box-shadow: 0 6px 22px rgba(26, 35, 50, 0.08);
+        display: flex;
+        flex-direction: column;
+        transition: box-shadow 0.3s ease;
+      }
+      .res-img {
+        height: 280px;
+        overflow: hidden;
+        position: relative;
+      }
+      .res-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.5s ease;
+      }
+      .res-img .loc {
+        position: absolute;
+        left: 14px;
+        bottom: 14px;
+        background: rgba(26, 35, 50, 0.78);
+        color: #fff;
+        font-size: 10px;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        font-weight: 600;
+        padding: 6px 10px;
+        border-radius: 2px;
+      }
+      .res-body {
+        padding: 24px 26px 28px;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+      }
+      .res-body .micro {
+        margin-bottom: 10px;
+        display: block;
+      }
+      .res-body h3 {
+        font-size: 22px;
+        margin-bottom: 12px;
+        line-height: 1.25;
+      }
+      .res-body .desc {
+        font-size: 14.5px;
+        color: var(--ink-2);
+        line-height: 1.6;
+        flex: 1;
+      }
+      .res-body ul.work-list {
+        list-style: none;
+        padding: 0;
+        margin: 14px 0 0;
+        border-top: 1px solid var(--rule);
+      }
+      .res-body ul.work-list li {
+        padding: 8px 0 8px 22px;
+        font-size: 13px;
+        color: var(--ink-2);
+        position: relative;
+        line-height: 1.45;
+      }
+      .res-body ul.work-list li::before {
+        content: '—';
+        position: absolute;
+        left: 0;
+        top: 8px;
+        color: var(--accent);
+        font-weight: 600;
+      }
+
+      /* infra */
+      .infra-head {
+        margin: 80px 0 50px;
+      }
+      .infra-head .micro {
+        display: inline-block;
+        margin-bottom: 12px;
+        padding: 6px 12px;
+        background: var(--ink);
+        color: #fff;
+        border-radius: 2px;
+        font-size: 10.5px;
+      }
+      .infra-head h2 {
+        font-size: clamp(32px, 3.6vw, 50px);
+        max-width: 880px;
+      }
+      .infra-card {
+        margin-bottom: 64px;
+        padding-bottom: 48px;
+        border-bottom: 1px solid var(--rule);
+        transition: box-shadow 0.3s ease;
+      }
+      .infra-card:last-child {
+        margin-bottom: 0;
+        border-bottom: none;
+        padding-bottom: 0;
+      }
+
+      .infra-hero {
+        display: grid;
+        grid-template-columns: 1.4fr 1fr;
+        gap: 32px;
+        align-items: stretch;
+        margin-bottom: 20px;
+      }
+      @media (max-width: 900px) {
+        .infra-hero {
+          grid-template-columns: 1fr;
+        }
+      }
+      .infra-hero .ih-img {
+        height: 440px;
+        border-radius: 4px;
+        overflow: hidden;
+        position: relative;
+      }
+      .infra-hero .ih-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .infra-hero .ih-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px 22px;
+      }
+      .infra-hero .ih-text .micro {
+        margin-bottom: 14px;
+        display: block;
+      }
+      .infra-hero .ih-text h3 {
+        font-size: clamp(24px, 2.4vw, 30px);
+        margin-bottom: 14px;
+        line-height: 1.2;
+      }
+      .infra-hero .ih-text .desc {
+        font-size: 16.5px;
+        color: var(--ink-2);
+        line-height: 1.65;
+      }
+
+      .infra-gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+      }
+      .infra-gallery.col2 {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      @media (max-width: 768px) {
+        .infra-gallery,
+        .infra-gallery.col2 {
+          grid-template-columns: 1fr;
+        }
+      }
+      .infra-gallery .gimg {
+        height: 240px;
+        border-radius: 4px;
+        overflow: hidden;
+        position: relative;
+      }
+      .infra-gallery .gimg img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.5s ease;
+      }
+
+      /* ===== SUMMARY TABLE ===== */
+      .summary {
+        background: var(--ink);
+        color: #fff;
+        padding: 100px 0;
+      }
+      .summary .section-head .micro {
+        color: rgba(255, 255, 255, 0.5);
+      }
+      .summary .section-head h2 {
+        color: #fff;
+      }
+      .summary-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 14px;
+      }
+      .summary-table thead th {
+        text-align: left;
+        padding: 18px 16px;
+        font-family: 'Inter', sans-serif;
+        font-size: 11px;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: rgba(255, 255, 255, 0.55);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+      }
+      .summary-table thead th:first-child {
+        width: 60px;
+        color: var(--accent-soft);
+      }
+      .summary-table tbody td {
+        padding: 22px 16px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+        vertical-align: top;
+        color: rgba(255, 255, 255, 0.92);
+        line-height: 1.5;
+      }
+      .summary-table tbody td:first-child {
+        font-family: 'Playfair Display', Georgia, serif;
+        font-weight: 500;
+        color: var(--accent-soft);
+        font-size: 18px;
+        width: 60px;
+      }
+      .summary-table tbody td:nth-child(4),
+      .summary-table tbody td:nth-child(5) {
+        color: rgba(255, 255, 255, 0.65);
+        font-size: 13.5px;
+      }
+      .summary-table tbody tr:hover td {
+        background: rgba(255, 255, 255, 0.04);
+      }
+      @media (max-width: 700px) {
+        .summary-table thead {
+          display: none;
+        }
+        .summary-table,
+        .summary-table tbody,
+        .summary-table tr,
+        .summary-table td {
+          display: block;
+          width: 100%;
+        }
+        .summary-table tr {
+          margin-bottom: 24px;
+          padding-bottom: 14px;
+          border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+        }
+        .summary-table td {
+          padding: 6px 0;
+          border-bottom: none;
+        }
+        .summary-table td::before {
+          content: attr(data-label);
+          display: block;
+          font-size: 10.5px;
+          letter-spacing: 0.16em;
+          text-transform: uppercase;
+          color: var(--accent-soft);
+          margin-bottom: 4px;
+        }
+        .summary-table td:first-child::before {
+          content: '№';
+          color: var(--accent-soft);
+        }
+      }
+
+      /* ===== CONTACTS ===== */
+      .contacts {
+        background: var(--paper);
+        padding: 100px 0;
+      }
+      .contacts-grid {
+        display: grid;
+        grid-template-columns: 1.3fr 1fr;
+        gap: 48px;
+        align-items: start;
+      }
+      @media (max-width: 880px) {
+        .contacts-grid {
+          grid-template-columns: 1fr;
+          gap: 30px;
+        }
+      }
+      .contact-main {
+        background: var(--cream);
+        padding: 46px 44px;
+        border-radius: 6px;
+        border-left: 5px solid var(--accent);
+      }
+      @media (max-width: 768px) {
+        .contact-main {
+          padding: 32px 24px;
+        }
+      }
+      .contact-main .micro {
+        margin-bottom: 18px;
+        display: block;
+      }
+      .contact-main h3 {
+        font-size: clamp(28px, 3vw, 40px);
+        margin-bottom: 8px;
+        color: var(--ink);
+      }
+      .contact-main h3 + .role {
+        font-size: 14.5px;
+        color: var(--steel);
+        letter-spacing: 0.05em;
+        margin-bottom: 36px;
+        display: block;
+      }
+      .contact-main .phones {
+        font-family: 'Playfair Display', Georgia, serif;
+        font-size: clamp(20px, 2vw, 26px);
+        font-weight: 500;
+        color: var(--ink);
+        margin-bottom: 14px;
+        letter-spacing: 0.02em;
+      }
+      .contact-main .phones span {
+        padding-right: 14px;
+        margin-right: 6px;
+        border-right: 1px solid var(--rule);
+      }
+      .contact-main .phones span:last-child {
+        border-right: none;
+        padding-right: 0;
+        margin-right: 0;
+      }
+      .contact-main .email {
+        font-family: 'Inter', sans-serif;
+        font-size: 15px;
+        color: var(--accent);
+        font-weight: 500;
+        letter-spacing: 0.01em;
+      }
+
+      .contact-side {
+        padding: 30px 0;
+      }
+      .contact-side .micro {
+        margin-bottom: 20px;
+        display: block;
+      }
+      .contact-side h4 {
+        font-family: 'Playfair Display', Georgia, serif;
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 18px;
+        color: var(--ink);
+      }
+      .req-list {
+        list-style: none;
+        padding: 0;
+      }
+      .req-list li {
+        display: flex;
+        gap: 10px;
+        padding: 11px 0;
+        border-bottom: 1px solid var(--rule);
+        font-size: 13.5px;
+        color: var(--ink-2);
+        line-height: 1.5;
+      }
+      .req-list li .k {
+        color: var(--steel);
+        flex: 0 0 90px;
+        font-weight: 600;
+        font-size: 11.5px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+      }
+      .req-list li .v {
+        flex: 1;
+      }
+
+      /* ===== FOOTER ===== */
+      footer {
+        background: #0d1622;
+        color: rgba(255, 255, 255, 0.55);
+        padding: 30px 0;
+        text-align: center;
+        font-size: 12.5px;
+        letter-spacing: 0.08em;
+      }
+      footer .container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 8px;
+        text-transform: uppercase;
+        font-weight: 500;
+      }
+      @media (max-width: 680px) {
+        footer .container {
+          justify-content: center;
+          text-align: center;
+        }
+      }
+
+      /* =========================================================
+         GLOBAL MOBILE (≤ 768px) — на телефоне вся структура
+         перестраивается в одну колонку, фото крупно, текст читаем.
+         ========================================================= */
+      @media (max-width: 768px) {
+        /* базовый ритм */
+        .container {
+          padding: 0 18px;
+        }
+        :root {
+          --gap: 36px;
+        }
+        h1 {
+          font-size: clamp(30px, 8vw, 46px) !important;
+          line-height: 1.1;
+        }
+        h2.serif {
+          font-size: clamp(26px, 6vw, 36px) !important;
+        }
+        .section-head {
+          margin-bottom: 32px;
+        }
+
+        /* Hero */
+        .hero {
+          padding: 60px 0 30px;
+        }
+        .hero .container {
+          display: flex;
+          flex-direction: column;
+          gap: 28px;
+          text-align: left;
+        }
+        .hero-text h1 {
+          margin-bottom: 18px;
+        }
+        .hero-text .sub {
+          font-size: 15px;
+          margin-bottom: 26px;
+        }
+        .cta-group {
+          flex-direction: row;
+          flex-wrap: wrap;
+          gap: 12px;
+        }
+        .cta-group .btn {
+          flex: 1 1 auto;
+          text-align: center;
+          padding: 13px 18px;
+          font-size: 12.5px;
+        }
+        .hero-triptych {
+          height: 320px;
+          margin-top: 4px;
+        }
+        .hero-triptych .tile.t1 {
+          top: 0;
+          left: 0;
+          width: 70%;
+          height: 65%;
+          transform: rotate(-2.5deg);
+        }
+        .hero-triptych .tile.t2 {
+          display: none;
+        }
+        .hero-triptych .tile.t3 {
+          bottom: 0;
+          left: 0;
+          width: 55%;
+          height: 50%;
+          transform: rotate(-2deg);
+        }
+        .hero-triptych .tile.t4 {
+          bottom: 4%;
+          right: 0;
+          width: 45%;
+          height: 45%;
+          transform: rotate(2.5deg);
+        }
+
+        /* Section paddings */
+        section {
+          padding: 56px 0 !important;
+        }
+        .residential-section,
+        .industrial-section,
+        .infra-section,
+        .summary,
+        .contacts {
+          padding-left: 0;
+          padding-right: 0;
+        }
+
+        /* About */
+        .about-block p {
+          font-size: 16px !important;
+          line-height: 1.7 !important;
+          margin-bottom: 14px !important;
+        }
+
+        /* Feature card: image on top, text below */
+        .feature-card {
+          grid-template-columns: 1fr !important;
+          gap: 24px !important;
+          padding: 0 0 36px !important;
+          margin-bottom: 36px !important;
+          border-bottom: 1px solid var(--rule);
+        }
+        .feature-card:last-of-type {
+          border-bottom: none;
+        }
+        .feature-card .feat-img {
+          height: 260px;
+          border-radius: 4px;
+          overflow: hidden;
+        }
+        .feature-card .feat-img img {
+          height: 100%;
+        }
+        .feature-card .feat-text {
+          padding: 8px 4px 0;
+        }
+        .feature-card .feat-text h3 {
+          font-size: clamp(22px, 5.5vw, 30px) !important;
+        }
+        .feature-card .feat-text .desc {
+          font-size: 15.5px;
+          line-height: 1.65;
+        }
+        .feature-card .thumb-grid {
+          grid-template-columns: repeat(2, 1fr) !important;
+          gap: 10px !important;
+          margin-top: 6px;
+        }
+        .feature-card .thumb {
+          height: 130px !important;
+        }
+        .feature-card .work-list li {
+          font-size: 14px;
+          padding: 9px 0 9px 22px;
+        }
+        .feature-card .badge {
+          font-size: 9.5px;
+          padding: 5px 10px;
+        }
+
+        /* Residential intro */
+        .residential-intro {
+          grid-template-columns: 1fr !important;
+          gap: 18px !important;
+          margin: 36px 0 !important;
+        }
+        .residential-intro p {
+          font-size: 14.5px;
+        }
+
+        /* Residential grid (ЖК стандарт) */
+        .residential-grid {
+          gap: 16px !important;
+        }
+        .residential-grid .rg-card {
+          padding: 18px !important;
+        }
+        .residential-grid .rg-card h3 {
+          font-size: 19px !important;
+        }
+        .residential-grid .rg-card p {
+          font-size: 14px;
+        }
+
+        /* Industrial — Nissan mini */
+        .nissan-mini-grid {
+          grid-template-columns: 1fr 1fr !important;
+          gap: 8px !important;
+          margin-top: 16px !important;
+        }
+        .nissan-mini-grid .nm-img {
+          height: 110px !important;
+        }
+
+        /* Mini-strip */
+        .mini-strip {
+          grid-template-columns: 1fr !important;
+          gap: 14px !important;
+          padding: 20px 0 !important;
+          margin-bottom: 24px !important;
+        }
+        .mini-strip .mini-img {
+          height: 200px;
+        }
+        .mini-strip .mini-text h4 {
+          font-size: 18px !important;
+        }
+        .mini-strip .mini-text p {
+          font-size: 14px;
+        }
+
+        /* Infra */
+        .infra-head h2 {
+          font-size: clamp(24px, 6vw, 32px) !important;
+        }
+        .infra-card {
+          margin-bottom: 40px !important;
+          padding-bottom: 32px !important;
+        }
+        .infra-hero {
+          grid-template-columns: 1fr !important;
+          gap: 18px !important;
+          margin-bottom: 14px !important;
+        }
+        .infra-hero .ih-img {
+          height: 220px !important;
+        }
+        .infra-hero .ih-text {
+          padding: 0 !important;
+        }
+        .infra-hero .ih-text h3 {
+          font-size: 22px !important;
+        }
+        .infra-hero .ih-text .desc {
+          font-size: 15px;
+        }
+        .infra-gallery,
+        .infra-gallery.col2 {
+          grid-template-columns: 1fr !important;
+          gap: 10px !important;
+        }
+        .infra-gallery .gimg {
+          height: 180px !important;
+        }
+
+        /* Summary (table) */
+        .summary {
+          padding: 56px 0 !important;
+        }
+        .summary .section-head h2 {
+          font-size: clamp(22px, 6vw, 30px) !important;
+        }
+
+        /* Contacts */
+        .contacts {
+          padding: 56px 0 !important;
+        }
+        .contacts-grid {
+          gap: 24px !important;
+        }
+        .contact-main {
+          padding: 28px 22px !important;
+        }
+        .contact-main h3 {
+          font-size: 24px !important;
+        }
+        .contact-main .phones {
+          font-size: 17px !important;
+        }
+        .contact-main .phones span {
+          display: block;
+          border-right: none;
+          padding-right: 0;
+          margin-right: 0;
+        }
+        .contact-side {
+          padding-top: 6px;
+        }
+        .req-list li {
+          font-size: 13px;
+          flex-wrap: wrap;
+        }
+        .req-list li .k {
+          flex: 0 0 80px;
+        }
+
+        /* Drawer на телефоне — на всю ширину */
+        .proj-drawer {
+          width: 100% !important;
+          max-width: 100% !important;
+          padding: 20px 22px !important;
+        }
+        .proj-drawer .drawer-head h3 {
+          font-size: 22px;
+        }
+        .proj-drawer .drawer-group a {
+          font-size: 14.5px !important;
+          padding: 11px 0 !important;
+        }
+
+        /* Lightbox на телефоне */
+        .lightbox .lb-close {
+          top: 12px;
+          right: 12px;
+          font-size: 36px;
+          width: 38px;
+          height: 38px;
+        }
+        .lightbox img {
+          max-width: 94vw !important;
+          max-height: 80vh !important;
+          border-radius: 3px;
+        }
+
+        /* Footer */
+        footer {
+          padding: 22px 0 !important;
+          font-size: 11.5px;
+        }
+      }
+
+      /* Extra small — узкие телефоны */
+      @media (max-width: 420px) {
+        .hero-triptych {
+          height: 280px;
+        }
+        .feature-card .feat-img {
+          height: 210px;
+        }
+        .feature-card .thumb {
+          height: 110px !important;
+        }
+      }
+    </style>
+  <meta content="extension" property="gosuslugi.plugin.extension.content"></head>
+  <body>
+    <!-- ============== HERO ============== -->
+    <header class="hero">
+      <div class="container">
+        <div class="hero-text">
+          <span class="micro">Группа строительных компаний</span>
+          <h1>Строим для <em>Петербурга</em><br>и области</h1>
+          <p class="sub">Монолит, кладочные работы, промышленное и гражданское строительство.</p>
+          <div class="cta-group">
+            <a class="btn" href="https://www.genspark.ai/api/files/s/dWT8rCs8#about">О группе</a>
+            <a class="btn solid" href="https://www.genspark.ai/api/files/s/dWT8rCs8#proj-drawer">К проектам</a>
+          </div>
+        </div>
+        <div class="hero-triptych">
+          <div class="tile t1">
+            <a class="zoomable" href="https://www.genspark.ai/api/files/s/dWT8rCs8#lb-tZqwCG2D"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/tZqwCG2D" alt="e.квартал «Мир внутри», корпуса на берегу Финского залива"></a>
+          </div>
+          <div class="tile t2">
+            <a class="zoomable" href="https://www.genspark.ai/api/files/s/dWT8rCs8#lb-vccOjaMB"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/vccOjaMB" alt="ЖК «е.волюция», фасад с красно-белым кирпичом"></a>
+          </div>
+          <div class="tile t3">
+            <a class="zoomable" href="https://www.genspark.ai/api/files/s/dWT8rCs8#lb-SjbToqDp"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/11.jpg" alt="Готовый складской комплекс из сэндвич-панелей"></a>
+          </div>
+          <div class="tile t4">
+            <a class="zoomable" href="https://www.genspark.ai/api/files/s/dWT8rCs8#lb-46tDAqiV"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/25.jpg" alt="Готовый автомобильный мост ЗСД"></a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ============== ABOUT ============== -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="section-head">
+          <span class="deco-line"></span>
+          <span class="micro">О группе</span>
+          <h2 class="serif">О группе компаний</h2>
+        </div>
+        <div class="about-block">
+          <p>Группа компаний работает на строительном рынке Санкт-Петербурга и Ленинградской области.</p>
+          <p>У команды большой опыт работы на строительных площадках.</p>
+          <p>Группа выполняет монолитные, кладочные и отделочные работы.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== 01 — RESIDENTIAL ============== -->
+    <section class="residential-section">
+      <div class="container">
+        <div class="section-head">
+          <span class="deco-line accent"></span>
+          <span class="micro">01 — Жилая недвижимость</span>
+          <h2 class="serif">Жилая недвижимость</h2>
+          <p class="epigraph">Жилые комплексы бизнес-класса, монолитные каркасы, кладочные работы и отделка.</p>
+        </div>
+
+        <!-- FEATURE: proj-mir (первый, на всю ширину) -->
+        <article id="proj-mir" class="feature-card">
+          <div class="feat-img">
+            <span class="badge">Флагман</span>
+            <a class="zoomable" href="https://www.genspark.ai/api/files/s/dWT8rCs8#lb-tZqwCG2D"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/tZqwCG2D" alt="e.квартал Мир внутри"></a>
+          </div>
+          <div class="feat-text">
+            <span class="micro">Застройщик: Seven Suns Development · e.Development · Курортный район СПб</span>
+            <h3 class="serif">e.квартал «Мир внутри»</h3>
+            <p class="desc">
+              Жилой комплекс в многолетнем хвойном лесу на первой береговой линии Финского залива, в самом сердце
+              Курортного района Санкт-Петербурга. Застройщик — группа компаний Seven Suns Development (проект
+              реализуется под брендом e.Development). На объекте выполнен полный комплекс работ: монолитные
+              железобетонные конструкции, кладочные работы, устройство кровли.
+            </p>
+            <ul class="work-list">
+              <li>Монолитные железобетонные конструкции</li>
+              <li>Кладочные работы</li>
+              <li>Устройство кровли</li>
+            </ul>
+          </div>
+          <div class="thumb-grid" style="grid-column: 1/-1">
+            <div class="thumb">
+              <a class="zoomable" href="https://www.genspark.ai/api/files/s/dWT8rCs8#lb-R62s0LJi"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/R62s0LJi" alt="Строительство ЖК Мир внутри"></a>
+            </div>
+            <div class="thumb">
+              <a class="zoomable" href="https://www.genspark.ai/api/files/s/dWT8rCs8#lb-FsPrStGe"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/FsPrStGe" alt="ЖК Мир внутри, вид сверху"></a>
+            </div>
+            <div class="thumb">
+              <a class="zoomable" href="https://www.genspark.ai/api/files/s/dWT8rCs8#lb-b8TTFAbs"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/b8TTFAbs" alt="Корпус ЖК Мир внутри"></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- FEATURE: proj-evolution -->
+        <article id="proj-evolution" class="feature-card">
+          <div class="feat-img">
+            <span class="badge">Новый объект</span>
+            <a class="zoomable" href="https://www.genspark.ai/api/files/s/dWT8rCs8#lb-vccOjaMB"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/vccOjaMB" alt="ЖК е.волюция, фасад с красно-белым кирпичом"></a>
+          </div>
+          <div class="feat-text">
+            <span class="micro">Застройщик: Seven Suns Development · e.Development · м. Московские ворота</span>
+            <h3 class="serif">ЖК бизнес-класса «е.волюция»</h3>
+            <p class="desc">
+              Квартал возводится по адресу: Санкт-Петербург, Московский пр-т, д. 114 — у станции метро «Московские
+              ворота». Застройщик — группа компаний Seven Suns Development (проект реализуется под брендом
+              e.Development). На объекте выполнен полный комплекс строительно-монтажных работ.
+            </p>
+            <ul class="work-list">
+              <li>Монолитные железобетонные конструкции (каркас здания)</li>
+              <li>Кладочные работы — наружные и внутренние стены</li>
+              <li>Устройство кровли</li>
+              <li>Монтаж оконных и дверных блоков</li>
+            </ul>
+          </div>
+          <div class="thumb-grid" style="grid-column: 1/-1">
+            <div class="thumb">
+              <a class="zoomable" href="https://www.genspark.ai/api/files/s/dWT8rCs8#lb-hi01GueY"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/hi01GueY" alt="ЖК е.волюция — корпуса"></a>
+            </div>
+            <div class="thumb">
+              <a class="zoomable" href="https://www.genspark.ai/api/files/s/dWT8rCs8#lb-UpdvPF2q"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/UpdvPF2q" alt="ЖК е.волюция — строительство"></a>
+            </div>
+            <div class="thumb">
+              <a class="zoomable" href="https://www.genspark.ai/api/files/s/dWT8rCs8#lb-7P59LGIU"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/7P59LGIU" alt="ЖК е.волюция — монолитный каркас"></a>
+            </div>
+            <div class="thumb">
+              <a class="zoomable" href="https://www.genspark.ai/api/files/s/dWT8rCs8#lb-xUjBubrC"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/xUjBubrC" alt="ЖК е.волюция — кладка"></a>
+            </div>
+            <div class="thumb">
+              <a class="zoomable" href="https://www.genspark.ai/api/files/s/dWT8rCs8#lb-lEU5dhX7"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/lEU5dhX7" alt="ЖК е.волюция — двор"></a>
+            </div>
+            <div class="thumb">
+              <a class="zoomable" href="https://www.genspark.ai/api/files/s/dWT8rCs8#lb-BaDBvHK1"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/BaDBvHK1" alt="ЖК е.волюция — вид с краном"></a>
+            </div>
+          </div>
+        </article>
+
+        <div class="residential-intro">
+          <span class="micro">Контекст</span>
+          <p>
+            За время работы группа выполнила полный комплекс строительно-монтажных работ на нескольких жилых комплексах
+            Санкт-Петербурга и Ленинградской области — как в качестве подрядчика монолитного каркаса, так и на
+            отделочных циклах и инженерных сетях.
+          </p>
+        </div>
+
+        <div class="residential-grid">
+          <article id="proj-medalist" class="res-card">
+            <div class="res-img">
+              <a class="zoomable" href="https://www.genspark.ai/api/files/s/dWT8rCs8#lb-hZiCfNi0"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/19.jpg" alt="ЖК Медалист"></a>
+              <span class="loc">пр. Маршала Блюхера, 13</span>
+            </div>
+            <div class="res-body">
+              <span class="micro">Заказчик · Лидер Групп</span>
+              <h3 class="serif">ЖК «МЕДАЛИСТ»</h3>
+              <p class="desc">Полный комплекс работ по возведению монолитного каркаса здания с паркингом.</p>
+            </div>
+          </article>
+
+          <article id="proj-lesnaya" class="res-card">
+            <div class="res-img">
+              <a class="zoomable" href="https://www.genspark.ai/api/files/s/dWT8rCs8#lb-Mic7Nn03"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/28.jpg" alt="ЖК Лесная сказка"></a>
+              <span class="loc">ул. Матросова, 20В</span>
+            </div>
+            <div class="res-body">
+              <span class="micro">Заказчик · Лидер Групп</span>
+              <h3 class="serif">ЖК «ЛЕСНАЯ СКАЗКА»</h3>
+              <p class="desc">
+                Полный комплекс отделочных работ: цементно-песчаная стяжка, механизированная штукатурка, установка
+                столярных изделий, малярные работы.
+              </p>
+            </div>
+          </article>
+
+          <article id="proj-moskovskiy" class="res-card">
+            <div class="res-img">
+              <a class="zoomable" href="https://www.genspark.ai/api/files/s/dWT8rCs8#lb-7ibc7rTc"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/01.jpg" alt="ЖК Московский квартал"></a>
+              <span class="loc">ул. Варшавская, 6 к. 1</span>
+            </div>
+            <div class="res-body">
+              <span class="micro">Заказчик · Лидер Групп</span>
+              <h3 class="serif">ЖК «МОСКОВСКИЙ КВАРТАЛ»</h3>
+              <p class="desc">
+                Полный комплекс отделочных работ и инженерных систем в первой очереди многоквартирного дома с паркингом.
+              </p>
+              <ul class="work-list">
+                <li>Отделка мест общего пользования — стяжка, штукатурка, столярка, малярка</li>
+                <li>Полный комплекс устройства систем ХВС, ГВС, ОВ и ВК</li>
+                <li>Благоустройство: озеленение, малые формы, дорожные покрытия</li>
+              </ul>
+            </div>
+          </article>
+
+          <article id="proj-trikita" class="res-card">
+            <div class="res-img">
+              <a class="zoomable" href="https://www.genspark.ai/api/files/s/dWT8rCs8#lb-LKKLyexs"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/26.jpg" alt="ЖК Три кита"></a>
+              <span class="loc">Всеволожский р-н, ЛО</span>
+            </div>
+            <div class="res-body">
+              <span class="micro">Заказчик · ООО «Лидер Групп»</span>
+              <h3 class="serif">ЖК «ТРИ КИТА»</h3>
+              <p class="desc">
+                Полный комплекс работ по возведению монолитного каркаса здания со встроенно-пристроенным паркингом,
+                дошкольным учреждением и физкультурно-оздоровительным комплексом.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== 02 — INDUSTRIAL ============== -->
+    <section class="industrial-section" id="projects">
+      <div class="container">
+        <div class="section-head">
+          <span class="deco-line accent"></span>
+          <span class="micro">02 — Промышленное строительство</span>
+          <h2 class="serif">Промышленное строительство</h2>
+          <p class="epigraph">Заводы, производственные цеха и оптовые распределительные центры.</p>
+        </div>
+
+        <!-- FEATURE PROJECT — NISSAN -->
+        <article id="proj-nissan" class="feature-card">
+          <div class="feat-img">
+            <span class="badge">Flagman</span>
+            <a class="zoomable" href="https://www.genspark.ai/api/files/s/dWT8rCs8#lb-bar4xtMa"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/23.jpg" alt="Вторая очередь завода Nissan"></a>
+          </div>
+          <div class="feat-text">
+            <span class="micro">Заказчик: ЗАО «ЭталонПромСтрой» · Санкт-Петербург</span>
+            <h3 class="serif">Вторая очередь завода Nissan</h3>
+            <p class="desc">
+              Комплекс общестроительных работ по возведению Кузовного цеха: устройство монолитных фундаментов под
+              несущие и ограждающие конструкции, фундамент под пресс, железобетонная плита пола с упрочняющим покрытием
+              (топпинг), монолитный каркас административно-бытового корпуса и отделка «под ключ».
+            </p>
+            <ul class="work-list">
+              <li>Кузовный цех — комплекс работ (без сетей)</li>
+              <li>Цех штамповки — фундаменты под пресс и несущие конструкции</li>
+              <li>Цех сборки — полы с топпингом, отделка</li>
+              <li>Административно-бытовой корпус — монолитный каркас, отделка «под ключ»</li>
+            </ul>
+          </div>
+          <div class="thumb-grid" style="grid-column: 1/-1">
+            <div class="thumb">
+              <a class="zoomable" href="https://www.genspark.ai/api/files/s/dWT8rCs8#lb-AtBaBlws"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/03.jpg" alt="Монтаж несущего стального каркаса"></a>
+            </div>
+            <div class="thumb">
+              <a class="zoomable" href="https://www.genspark.ai/api/files/s/dWT8rCs8#lb-0x2FrnZt"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/04.jpg" alt="Зимнее бетонирование монолита"></a>
+            </div>
+            <div class="thumb">
+              <a class="zoomable" href="https://www.genspark.ai/api/files/s/dWT8rCs8#lb-U1NRXUJC"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/30.jpg" alt="Фундамент с гидроизоляцией"></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- MEDIUM PROJECT — NART -->
+        <article id="proj-nart" class="medium-card reverse">
+          <div class="med-img">
+            <a class="zoomable" href="https://www.genspark.ai/api/files/s/dWT8rCs8#lb-SjbToqDp"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/11.jpg" alt="Агропарк НАРТ, готовый корпус"></a>
+            <span class="img-caption">ОРЦ «НАРТ» · I этап</span>
+          </div>
+          <div class="med-text">
+            <span class="micro">Заказчики: ООО «Нарт», ООО «Аплвей» · пос. Петро-Славянка, уч. 412</span>
+            <h3 class="serif">Оптово-распределительный центр «НАРТ» — корпуса №3 и №4</h3>
+            <p class="desc">
+              Первый этап строительства. Производственно-складские корпуса: устройство монолитных железобетонных
+              конструкций — фундаменты, цокольные панели, приямки, плиты перекрытий.
+            </p>
+            <div class="med-sub">
+              <div class="sub-img">
+                <a class="zoomable" href="https://www.genspark.ai/api/files/s/dWT8rCs8#lb-prmsDIgo"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/09.jpg" alt="Готовое внутреннее помещение"></a>
+              </div>
+              <div class="sub-img">
+                <a class="zoomable" href="https://www.genspark.ai/api/files/s/dWT8rCs8#lb-S8X0hELz"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/05.jpg" alt="Фундаментные работы"></a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- MINI STRIP — SKLAD 5000 -->
+        <article id="proj-sklad500" class="mini-strip">
+          <div class="mini-img">
+            <a class="zoomable" href="https://www.genspark.ai/api/files/s/dWT8rCs8#lb-ay6aUXzK"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/10.jpg" alt="Склад 5000 м² в Новосаратовке"></a>
+          </div>
+          <div class="mini-text">
+            <span class="micro">Заказчик: ООО «ПТО Тех КРЕП» · пос. Новосаратовка, Ленинградская область</span>
+            <h4>Складской комплекс с АБК — 5 000 м²</h4>
+            <p>
+              Полный комплекс работ: возведение металлокаркаса, монтаж ограждающих конструкций, устройство полов и
+              инженерных систем, отделка административно-бытовых помещений.
+            </p>
+          </div>
+          <div class="mini-img r">
+            <a class="zoomable" href="https://www.genspark.ai/api/files/s/dWT8rCs8#lb-qDJUkB0l"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/08.jpg" alt="Строящийся склад"></a>
+          </div>
+        </article>
+
+        <!-- MINI STRIP — GARAZHTOOLS -->
+        <article id="proj-garazhtools" class="mini-strip" style="border-left-color: var(--ink-2)">
+          <div class="mini-img">
+            <a class="zoomable" href="https://www.genspark.ai/api/files/s/dWT8rCs8#lb-2PxGX7Wv"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/07.jpg" alt="Монтаж металлического каркаса"></a>
+          </div>
+          <div class="mini-text">
+            <span class="micro">Заказчик: ООО «Гараж-инструмент» · пос. Петро-Славянка, Ленсоветовское</span>
+            <h4>Склад инструмента «ГаражТулс®»</h4>
+            <p>Устройство несущего металлокаркаса и быстровозводимых ограждающих конструкций.</p>
+          </div>
+          <div class="mini-img r">
+            <a class="zoomable" href="https://www.genspark.ai/api/files/s/dWT8rCs8#lb-fvJEbdgo"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/06.jpg" alt="Монтаж сэндвич-панелей"></a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============== 03 — INFRA ============== -->
+    <section class="infra-section">
+      <div class="container">
+        <div class="infra-head">
+          <span class="micro">03 — Дорожная инфраструктура и мосты</span>
+          <h2 class="serif">Дорожная инфраструктура<br>и мостовые сооружения</h2>
+          <p class="epigraph">Западный скоростной диаметр и мостовые сооружения Санкт-Петербурга.</p>
+        </div>
+
+        <!-- ZSD II -->
+        <article id="proj-zsd-ii" class="infra-card">
+          <div class="infra-hero">
+            <div class="ih-img">
+              <a class="zoomable" href="https://www.genspark.ai/api/files/s/dWT8rCs8#lb-46tDAqiV"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/25.jpg" alt="ЗСД II очередь"></a>
+            </div>
+            <div class="ih-text">
+              <span class="micro">ОАО «Западный Скоростной Диаметр» · Стачек — Калинина</span>
+              <h3 class="serif">ЗСД, II очередь — южный участок</h3>
+              <p class="desc">
+                Комплекс работ по устройству железобетонной плиты проезжей части на участке от проспекта Стачек до улицы
+                Калинина.
+              </p>
+            </div>
+          </div>
+          <div class="infra-gallery">
+            <div class="gimg">
+              <a class="zoomable" href="https://www.genspark.ai/api/files/s/dWT8rCs8#lb-awowFLIo"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/17.jpg" alt="Подготовка плиты проезжей части"></a>
+            </div>
+            <div class="gimg">
+              <a class="zoomable" href="https://www.genspark.ai/api/files/s/dWT8rCs8#lb-wsQ0uDE4"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/18.jpg" alt="Пролётное строение эстакады"></a>
+            </div>
+            <div class="gimg">
+              <a class="zoomable" href="https://www.genspark.ai/api/files/s/dWT8rCs8#lb-1yzC9Hxh"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/27.jpg" alt="Армирование плиты"></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- ZSD V -->
+        <article id="proj-zsd-v" class="infra-card">
+          <div class="infra-hero">
+            <div class="ih-img">
+              <a class="zoomable" href="https://www.genspark.ai/api/files/s/dWT8rCs8#lb-aHMpCSm3"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/21.jpg" alt="ЗСД V очередь"></a>
+            </div>
+            <div class="ih-text">
+              <span class="micro">ОАО «Западный Скоростной Диаметр» · Шкиперский проток — Б. Невка</span>
+              <h3 class="serif">ЗСД, V очередь — центральный и северный участки</h3>
+              <p class="desc">
+                Комплекс работ по устройству железобетонной плиты проезжей части от транспортной развязки в районе
+                Шкиперского протока до правого берега реки Большой Невки.
+              </p>
+            </div>
+          </div>
+          <div class="infra-gallery">
+            <div class="gimg">
+              <a class="zoomable" href="https://www.genspark.ai/api/files/s/dWT8rCs8#lb-NZEnujP3"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/13.jpg" alt="Монтаж пролётных строений"></a>
+            </div>
+            <div class="gimg">
+              <a class="zoomable" href="https://www.genspark.ai/api/files/s/dWT8rCs8#lb-nOIVcOmD"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/20.jpg" alt="Опоры эстакады"></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- MOST -->
+        <article id="proj-most" class="infra-card">
+          <div class="infra-hero">
+            <div class="ih-img">
+              <a class="zoomable" href="https://www.genspark.ai/api/files/s/dWT8rCs8#lb-MtrnI1Nk"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/22.jpg" alt="Мост через Дудергофский канал"></a>
+            </div>
+            <div class="ih-text">
+              <span class="micro">ЗАО «Трест «Ленмостострой»» · створ проспекта Героев</span>
+              <h3 class="serif">Мост через Дудергофский канал</h3>
+              <p class="desc">
+                Комплекс работ по устройству монолитной плиты при строительстве объекта «Мост через Дудергофский канал в
+                створе проспекта Героев».
+              </p>
+            </div>
+          </div>
+          <div class="infra-gallery col2">
+            <div class="gimg">
+              <a class="zoomable" href="https://www.genspark.ai/api/files/s/dWT8rCs8#lb-QtIstA5e"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/16.jpg" alt="Армирование фундамента с опалубкой"></a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============== SUMMARY TABLE ============== -->
+    <section class="summary" style="background: #0d1622">
+      <div class="container">
+        <div class="section-head">
+          <span class="deco-line accent"></span>
+          <span class="micro">Сводный список · 13 объектов</span>
+          <h2 class="serif">Все проекты, одной строкой.</h2>
+        </div>
+
+        <div style="overflow-x: auto">
+          <table class="summary-table">
+            <thead>
+              <tr>
+                <th>№</th>
+                <th>Проект</th>
+                <th>Заказчик</th>
+                <th>Локация</th>
+                <th>Виды работ</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-label="№">01</td>
+                <td data-label="Проект">e.квартал «Мир внутри»</td>
+                <td data-label="Заказчик">Seven Suns Development (e.Development)</td>
+                <td data-label="Локация">Курортный р-н СПб, Финский залив</td>
+                <td data-label="Виды работ">Монолит, кладочные, кровля</td>
+              </tr>
+              <tr>
+                <td data-label="№">02</td>
+                <td data-label="Проект">ЖК «е.волюция»</td>
+                <td data-label="Заказчик">Seven Suns Development (e.Development)</td>
+                <td data-label="Локация">м. Московские ворота, Московский пр-т, д. 114</td>
+                <td data-label="Виды работ">Монолитный каркас, кладочные, кровля, окна</td>
+              </tr>
+              <tr>
+                <td data-label="№">03</td>
+                <td data-label="Проект">ЖК «МЕДАЛИСТ»</td>
+                <td data-label="Заказчик">«Лидер Групп»</td>
+                <td data-label="Локация">пр. Маршала Блюхера, 13</td>
+                <td data-label="Виды работ">Монолитный каркас, паркинг</td>
+              </tr>
+              <tr>
+                <td data-label="№">04</td>
+                <td data-label="Проект">ЖК «ЛЕСНАЯ СКАЗКА»</td>
+                <td data-label="Заказчик">«Лидер Групп»</td>
+                <td data-label="Локация">ул. Матросова, 20В</td>
+                <td data-label="Виды работ">Полная отделка</td>
+              </tr>
+              <tr>
+                <td data-label="№">05</td>
+                <td data-label="Проект">ЖК «МОСКОВСКИЙ КВАРТАЛ»</td>
+                <td data-label="Заказчик">«Лидер Групп»</td>
+                <td data-label="Локация">ул. Варшавская, 6 к. 1</td>
+                <td data-label="Виды работ">Отделка МОП, ХВС / ГВС / ОВ / ВК, благоустройство</td>
+              </tr>
+              <tr>
+                <td data-label="№">06</td>
+                <td data-label="Проект">ЖК «ТРИ КИТА»</td>
+                <td data-label="Заказчик">ООО «Лидер Групп»</td>
+                <td data-label="Локация">Всеволожский р-н, ЛО</td>
+                <td data-label="Виды работ">Монолитный каркас</td>
+              </tr>
+              <tr>
+                <td data-label="№">07</td>
+                <td data-label="Проект">Завод Nissan, II очередь</td>
+                <td data-label="Заказчик">ЗАО «ЭталонПромСтрой»</td>
+                <td data-label="Локация">Санкт-Петербург</td>
+                <td data-label="Виды работ">Кузовный цех, штамповка, сборка, АБК</td>
+              </tr>
+              <tr>
+                <td data-label="№">08</td>
+                <td data-label="Проект">Складской комплекс 5 000 м² с АБК</td>
+                <td data-label="Заказчик">ООО «ПТО Тех КРЕП»</td>
+                <td data-label="Локация">пос. Новосаратовка, ЛО</td>
+                <td data-label="Виды работ">Полный комплекс работ</td>
+              </tr>
+              <tr>
+                <td data-label="№">09</td>
+                <td data-label="Проект">Склад инструмента «ГаражТулс®»</td>
+                <td data-label="Заказчик">ООО «Гараж-инструмент»</td>
+                <td data-label="Локация">пос. Петро-Славянка</td>
+                <td data-label="Виды работ">Металлокаркас, ограждающие</td>
+              </tr>
+              <tr>
+                <td data-label="№">10</td>
+                <td data-label="Проект">Агропарк «НАРТ», корпуса №3 и №4</td>
+                <td data-label="Заказчик">ООО «Нарт», ООО «Аплвей»</td>
+                <td data-label="Локация">пос. Петро-Славянка, уч. 412</td>
+                <td data-label="Виды работ">Монолитные ЖБК</td>
+              </tr>
+              <tr>
+                <td data-label="№">11</td>
+                <td data-label="Проект">ЗСД, II очередь — южный участок</td>
+                <td data-label="Заказчик">ОАО «Западный Скоростной Диаметр»</td>
+                <td data-label="Локация">Стачек — Калинина</td>
+                <td data-label="Виды работ">Плита проезжей части</td>
+              </tr>
+              <tr>
+                <td data-label="№">12</td>
+                <td data-label="Проект">ЗСД, V очередь — центр. и сев.</td>
+                <td data-label="Заказчик">ОАО «Западный Скоростной Диаметр»</td>
+                <td data-label="Локация">Шкиперский проток — Б. Невка</td>
+                <td data-label="Виды работ">Плита проезжей части</td>
+              </tr>
+              <tr>
+                <td data-label="№">13</td>
+                <td data-label="Проект">Мост через Дудергофский канал</td>
+                <td data-label="Заказчик">ЗАО «Трест «Ленмостострой»»</td>
+                <td data-label="Локация">створ пр. Героев</td>
+                <td data-label="Виды работ">Монолитная плита</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== CONTACTS ============== -->
+    <section class="contacts">
+      <div class="container">
+        <div class="section-head">
+          <span class="deco-line accent"></span>
+          <span class="micro">Контакты</span>
+          <h2 class="serif">Свяжитесь с нами.</h2>
+        </div>
+        <div class="contacts-grid">
+          <div class="contact-main">
+            <span class="micro">Руководитель проектов</span>
+            <h3 class="serif">Иванов Сергей</h3>
+            <span class="role">ООО «ФОРТ»</span>
+            <div class="phones">
+              <span>+7 (911) 724-62-69</span>
+              <span>+7 (905) 279-41-42</span>
+            </div>
+            <a class="email" href="mailto:i-s-n1@yandex.ru">i-s-n1@yandex.ru</a>
+          </div>
+
+          <aside class="contact-side">
+            <span class="micro">Реквизиты ООО «Форт»</span>
+            <h4>Санкт-Петербург</h4>
+            <ul class="req-list">
+              <li><span class="k">ИНН</span><span class="v">7811742091</span></li>
+              <li><span class="k">КПП</span><span class="v">781101001</span></li>
+              <li><span class="k">ОГРН</span><span class="v">1197847244011</span></li>
+              <li><span class="k">ОКПО</span><span class="v">42678161</span></li>
+              <li>
+                <span class="k">Юр. адрес</span><span class="v">193149, Санкт-Петербург, ул. Седова, д. 10, литер А, офис 302В</span>
+              </li>
+              <li><span class="k">БИК</span><span class="v">044030755</span></li>
+              <li><span class="k">Р/с</span><span class="v">40702810100300213056</span></li>
+              <li>
+                <span class="k">К/с</span><span class="v">30101810000000000755 · ПАО Банк «АЛЕКСАНДРОВСКИЙ»</span>
+              </li>
+              <li><span class="k">E-mail</span><span class="v">ooofort2020@gmail.com</span></li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <span>Группа строительных компаний · Санкт-Петербург, 2021</span>
+        <span>© Все права защищены</span>
+      </div>
+    </footer>
+
+    <!-- ============== DRAWER ============== -->
+    <aside id="proj-drawer" class="proj-drawer" role="dialog" aria-label="Все объекты">
+      <a href="https://www.genspark.ai/api/files/s/dWT8rCs8#" class="drawer-close" aria-label="Закрыть">×</a>
+      <div class="drawer-head">
+        <span class="micro">Все объекты</span>
+        <h3>К проектам</h3>
+      </div>
+      <div class="drawer-body">
+              <div class="drawer-group">
+                <span class="micro">Жилая недвижимость</span>
+                <a href="https://www.genspark.ai/api/files/s/dWT8rCs8#proj-mir">e.квартал «Мир внутри»</a>
+                <a href="https://www.genspark.ai/api/files/s/dWT8rCs8#proj-evolution">ЖК бизнес-класса «е.волюция»</a>
+                <a href="https://www.genspark.ai/api/files/s/dWT8rCs8#proj-medalist">ЖК «МЕДАЛИСТ»</a>
+                <a href="https://www.genspark.ai/api/files/s/dWT8rCs8#proj-lesnaya">ЖК «ЛЕСНАЯ СКАЗКА»</a>
+                <a href="https://www.genspark.ai/api/files/s/dWT8rCs8#proj-moskovskiy">ЖК «МОСКОВСКИЙ КВАРТАЛ»</a>
+                <a href="https://www.genspark.ai/api/files/s/dWT8rCs8#proj-trikita">ЖК «ТРИ КИТА»</a>
+              </div>
+        <div class="drawer-group">
+          <span class="micro">Промышленное строительство</span>
+          <a href="https://www.genspark.ai/api/files/s/dWT8rCs8#proj-nissan">Завод Nissan, II очередь</a>
+          <a href="https://www.genspark.ai/api/files/s/dWT8rCs8#proj-nart">ОРЦ «НАРТ», корпуса №3 и №4</a>
+          <a href="https://www.genspark.ai/api/files/s/dWT8rCs8#proj-sklad500">Складской комплекс 5 000 м²</a>
+          <a href="https://www.genspark.ai/api/files/s/dWT8rCs8#proj-garazhtools">Склад инструмента «ГаражТулс®»</a>
+        </div>
+        <div class="drawer-group">
+          <span class="micro">Дорожная инфраструктура и мосты</span>
+          <a href="https://www.genspark.ai/api/files/s/dWT8rCs8#proj-zsd-ii">ЗСД, II очередь — южный участок</a>
+          <a href="https://www.genspark.ai/api/files/s/dWT8rCs8#proj-zsd-v">ЗСД, V очередь — центр. и сев.</a>
+          <a href="https://www.genspark.ai/api/files/s/dWT8rCs8#proj-most">Мост через Дудергофский канал</a>
+        </div>
+      </div>
+    </aside>
+    <div id="drawer-backdrop" class="drawer-backdrop"><a href="https://www.genspark.ai/api/files/s/dWT8rCs8#" class="bd-close" aria-label="Закрыть"></a></div>
+
+    <!-- ============== LIGHTBOXES (CSS-only via :target) ============== -->
+    <div class="lightboxes-wrapper">
+      <!-- e.волюция -->
+      <a id="lb-vccOjaMB" class="lb" href="https://www.genspark.ai/api/files/s/dWT8rCs8#"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/vccOjaMB" alt=""><span class="lb-close">×</span></a>
+      <a id="lb-hi01GueY" class="lb" href="https://www.genspark.ai/api/files/s/dWT8rCs8#"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/hi01GueY" alt=""><span class="lb-close">×</span></a>
+      <a id="lb-UpdvPF2q" class="lb" href="https://www.genspark.ai/api/files/s/dWT8rCs8#"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/UpdvPF2q" alt=""><span class="lb-close">×</span></a>
+      <a id="lb-7P59LGIU" class="lb" href="https://www.genspark.ai/api/files/s/dWT8rCs8#"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/7P59LGIU" alt=""><span class="lb-close">×</span></a>
+      <a id="lb-xUjBubrC" class="lb" href="https://www.genspark.ai/api/files/s/dWT8rCs8#"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/xUjBubrC" alt=""><span class="lb-close">×</span></a>
+      <a id="lb-lEU5dhX7" class="lb" href="https://www.genspark.ai/api/files/s/dWT8rCs8#"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/lEU5dhX7" alt=""><span class="lb-close">×</span></a>
+      <a id="lb-BaDBvHK1" class="lb" href="https://www.genspark.ai/api/files/s/dWT8rCs8#"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/BaDBvHK1" alt=""><span class="lb-close">×</span></a>
+
+      <!-- e.Мир внутри -->
+      <a id="lb-tZqwCG2D" class="lb" href="https://www.genspark.ai/api/files/s/dWT8rCs8#"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/tZqwCG2D" alt=""><span class="lb-close">×</span></a>
+      <a id="lb-R62s0LJi" class="lb" href="https://www.genspark.ai/api/files/s/dWT8rCs8#"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/R62s0LJi" alt=""><span class="lb-close">×</span></a>
+      <a id="lb-FsPrStGe" class="lb" href="https://www.genspark.ai/api/files/s/dWT8rCs8#"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/FsPrStGe" alt=""><span class="lb-close">×</span></a>
+      <a id="lb-b8TTFAbs" class="lb" href="https://www.genspark.ai/api/files/s/dWT8rCs8#"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/b8TTFAbs" alt=""><span class="lb-close">×</span></a>
+      <a id="lb-2Tl6FxvF" class="lb" href="https://www.genspark.ai/api/files/s/dWT8rCs8#"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/2Tl6FxvF" alt=""><span class="lb-close">×</span></a>
+
+      <!-- ЖК в гриде -->
+      <a id="lb-hZiCfNi0" class="lb" href="https://www.genspark.ai/api/files/s/dWT8rCs8#"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/19.jpg" alt=""><span class="lb-close">×</span></a>
+      <a id="lb-Mic7Nn03" class="lb" href="https://www.genspark.ai/api/files/s/dWT8rCs8#"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/28.jpg" alt=""><span class="lb-close">×</span></a>
+      <a id="lb-7ibc7rTc" class="lb" href="https://www.genspark.ai/api/files/s/dWT8rCs8#"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/01.jpg" alt=""><span class="lb-close">×</span></a>
+      <a id="lb-LKKLyexs" class="lb" href="https://www.genspark.ai/api/files/s/dWT8rCs8#"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/26.jpg" alt=""><span class="lb-close">×</span></a>
+
+      <!-- Промышленное -->
+      <a id="lb-bar4xtMa" class="lb" href="https://www.genspark.ai/api/files/s/dWT8rCs8#"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/23.jpg" alt=""><span class="lb-close">×</span></a>
+      <a id="lb-AtBaBlws" class="lb" href="https://www.genspark.ai/api/files/s/dWT8rCs8#"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/03.jpg" alt=""><span class="lb-close">×</span></a>
+      <a id="lb-0x2FrnZt" class="lb" href="https://www.genspark.ai/api/files/s/dWT8rCs8#"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/04.jpg" alt=""><span class="lb-close">×</span></a>
+      <a id="lb-U1NRXUJC" class="lb" href="https://www.genspark.ai/api/files/s/dWT8rCs8#"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/30.jpg" alt=""><span class="lb-close">×</span></a>
+      <a id="lb-SjbToqDp" class="lb" href="https://www.genspark.ai/api/files/s/dWT8rCs8#"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/11.jpg" alt=""><span class="lb-close">×</span></a>
+      <a id="lb-prmsDIgo" class="lb" href="https://www.genspark.ai/api/files/s/dWT8rCs8#"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/09.jpg" alt=""><span class="lb-close">×</span></a>
+      <a id="lb-S8X0hELz" class="lb" href="https://www.genspark.ai/api/files/s/dWT8rCs8#"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/05.jpg" alt=""><span class="lb-close">×</span></a>
+      <a id="lb-ay6aUXzK" class="lb" href="https://www.genspark.ai/api/files/s/dWT8rCs8#"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/10.jpg" alt=""><span class="lb-close">×</span></a>
+      <a id="lb-qDJUkB0l" class="lb" href="https://www.genspark.ai/api/files/s/dWT8rCs8#"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/08.jpg" alt=""><span class="lb-close">×</span></a>
+      <a id="lb-2PxGX7Wv" class="lb" href="https://www.genspark.ai/api/files/s/dWT8rCs8#"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/07.jpg" alt=""><span class="lb-close">×</span></a>
+      <a id="lb-fvJEbdgo" class="lb" href="https://www.genspark.ai/api/files/s/dWT8rCs8#"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/06.jpg" alt=""><span class="lb-close">×</span></a>
+
+      <!-- Инфраструктура -->
+      <a id="lb-46tDAqiV" class="lb" href="https://www.genspark.ai/api/files/s/dWT8rCs8#"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/25.jpg" alt=""><span class="lb-close">×</span></a>
+      <a id="lb-awowFLIo" class="lb" href="https://www.genspark.ai/api/files/s/dWT8rCs8#"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/17.jpg" alt=""><span class="lb-close">×</span></a>
+      <a id="lb-wsQ0uDE4" class="lb" href="https://www.genspark.ai/api/files/s/dWT8rCs8#"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/18.jpg" alt=""><span class="lb-close">×</span></a>
+      <a id="lb-1yzC9Hxh" class="lb" href="https://www.genspark.ai/api/files/s/dWT8rCs8#"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/27.jpg" alt=""><span class="lb-close">×</span></a>
+      <a id="lb-aHMpCSm3" class="lb" href="https://www.genspark.ai/api/files/s/dWT8rCs8#"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/21.jpg" alt=""><span class="lb-close">×</span></a>
+      <a id="lb-NZEnujP3" class="lb" href="https://www.genspark.ai/api/files/s/dWT8rCs8#"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/13.jpg" alt=""><span class="lb-close">×</span></a>
+      <a id="lb-nOIVcOmD" class="lb" href="https://www.genspark.ai/api/files/s/dWT8rCs8#"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/20.jpg" alt=""><span class="lb-close">×</span></a>
+      <a id="lb-MtrnI1Nk" class="lb" href="https://www.genspark.ai/api/files/s/dWT8rCs8#"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/22.jpg" alt=""><span class="lb-close">×</span></a>
+      <a id="lb-QtIstA5e" class="lb" href="https://www.genspark.ai/api/files/s/dWT8rCs8#"><img src="./Группа строительных компаний · Строим для Петербурга и области_files/16.jpg" alt=""><span class="lb-close">×</span></a>
+    </div>
+  <script type="module" src="./Группа строительных компаний · Строим для Петербурга и области_files/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon="{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;4edd5f8ec12a48cfa682ab8261b80a79&quot;}" crossorigin="anonymous"></script>
+
+
+</body></html>
